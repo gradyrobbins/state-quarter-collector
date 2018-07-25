@@ -1,2 +1,2 @@
 # state-quarter-collector
-an idea for a project to help complete the 50state quarters collection
+### an idea for a collaborative project to help complete a 50 state quarters collection
