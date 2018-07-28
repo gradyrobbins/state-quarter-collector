@@ -1,21 +1,6 @@
 console.log("Helloworld this is main.js")
 
 /*
-    Single Responsibility Principle
-    Two functions:
-        1. Factory function for creating snack cakes
-        2. Function for saving collection of cackes to localStorage
-*/
-const keyCriticalPointsByWeekFourofNSS = [
-  "Proper variable naming",
-  "Data structures",
-  "Objects, keys, values",
-  "Functions and their purpose",
-  "Function arguments and how to use them",
-  "Event listeners - Responding to user interaction in the browser"
-]
-
-/*
   Purpose: Creates a single snack cakes
   Arguments: title (string), description (string), amount (integer),
              topping (string), flavor (string), weight (integer [grams])
