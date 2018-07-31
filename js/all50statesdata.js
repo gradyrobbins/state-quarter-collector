@@ -8,53 +8,12 @@
         2. Function for saving collection of states to localStorage
 */
 
-/*
-  Purpose: Creates a single state
-  Arguments: Statehood (string), Captial (string), Nicknames (string),
-             Motto (string), Flower (string), Bird (string)
-  Returns: Object representing an individual state of the union.
-*/
-// const createState = (Statehood, Capital, Nicknames, Motto, Flower, Bird) => {
-//     const individualState = {
-//         Statehood: Statehood,
-//         Capital: Capital,
-//         Nicknames: Nicknames,
-//         Motto: Motto,
-//         Flower: Flower,
-//         Bird: Bird
-//     }
-  
-//     return individualState;
-//   }
-
 // /*
 //   Purpose: Creates a collection of all states
 //   Arguments: none
 //   Returns: Array of objects. Each object is a state.
 // */
 
-// const stateInfoBuilder = () => {
-//     const Delaware = createState(
-//         "December 7, 1787",
-//         "Dover",
-//         "First State, Diamond State",
-//         "Liberty and Independence",
-//         "Peach Blossom",
-//         "Blue hen chicken"
-//     )
-
-//     const Pennsylvania = createState(
-//         "December 12, 1787",
-//         "Harrisburg",
-//         "Keystone State",
-//         "Virtue, Liberty and Independence",
-//         "Mountain Laurel",
-//         "Ruffed Goose"
-//     )
-//     const arrayOfStates = [Delaware, Pennsylvania]
-    
-//     return arrayOfStates;
-// }
 
 
 /*
@@ -63,21 +22,7 @@
       cake objects
   Returns: None
 */
-// function populateDB(stateInfoBuilder) {
-//     const stringified = JSON.stringify(stateInfoBuilder)
-//     localStorage.setItem("state", stringified)
-//   }
-  
 
-// let items;
-
-// if (localStorage.getItem('state')) {
-//     items = JSON.parse(localStorage.getItem('state'));
-//     console.log(items);
-//     } else {
-//     console.log("no data exists in local storage");
-//         //items = [];
-// }
 
 
     // const Delaware = {
